@@ -23,7 +23,7 @@ If you have Office 2013 or later on Windows:
 
 5. Go to Insert > My Apps > Shared Folder and select My First TaskPane Add-in, and then click Insert. If you don't see the Add-in, click Refresh.
 
-6. The Add-in is inserted in the middle of your document.
+6. The Add-in TaskPane opens next to your document.
 
 For more information, please read: https://msdn.microsoft.com/EN-US/library/office/fp123503.aspx
 
