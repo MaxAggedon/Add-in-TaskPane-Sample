@@ -1,13 +1,13 @@
-      _____         _      ____                       _       _     _       _       
+      _____         _      ____                       _       _     _       _
      |_   _|_ _ ___| | __ |  _ \ __ _ _ __   ___     / \   __| | __| |     (_)_ __  
-       | |/ _` / __| |/ / | |_) / _` | '_ \ / _ \   / _ \ / _` |/ _` |_____| | '_ \ 
+       | |/ _` / __| |/ / | |_) / _` | '_ \ / _ \   / _ \ / _` |/ _` |_____| | '_ \
        | | (_| \__ \   <  |  __/ (_| | | | |  __/  / ___ \ (_| | (_| |_____| | | | |
        |_|\__,_|___/_|\_\ |_|   \__,_|_| |_|\___| /_/   \_\__,_|\__,_|     |_|_| |_|
-                                                                                
 
-This sample showcases a simple add-in for Office that lets you get data from a document. 
 
-The easiest way to run this sample is to open it in the playground for Office Add-ins: http://aka.ms/Fb7hmn (will launch the sample in Excel Online)
+This sample showcases a simple add-in for Office that lets you get data from a document.
+
+The easiest way to run this sample is to open it in the playground for Office Add-ins: http://aka.ms/Fb7hmn (only works for Excel Online at the moment; if you're using PowerPoint: read on). Click the Run Project icon to launch the sample in Excel Online (you will need to login using a Microsoft account).
 
 ====================================================================================
 
@@ -17,7 +17,7 @@ If you have Office 2013 or later on Windows:
 
 1. Host these files on a local network share.
 
-2. Open up an Office app (Excel, Word or PowerPoint), open a document, and then select File > Options > Trust Center > Trust Center Settings > Trusted App Catalogs. 
+2. Open up an Office app (Excel, Word or PowerPoint), open a document, and then select File > Options > Trust Center > Trust Center Settings > Trusted App Catalogs.
 
 3. Type the location of the directory on your local network share into the Catalog Url text field, and click Add Catalog. Make sure the Show in Menu check box is selected.
 
@@ -31,9 +31,9 @@ For more information, please read: https://msdn.microsoft.com/EN-US/library/offi
 
 ====================================================================================
 
-If you don't have Office 2013 or later, or are not using Windows:
+If you are using Office Online:
 
-1. Host these files locally (on localhost) or online (e.g. AWS, Azure, Heroku, etc). In the manifest.xml file, change the default value of the SourceLocation to point to the URL where the index.html file is hosted.
+1. Host these files locally (on localhost) or online (e.g. AWS, Azure, Heroku, etc). In the manifest.xml file, change the DefaultValue of the SourceLocation to point to the URL where the index.html file is hosted.
 
 2. Go to the Office 365 portal (https://portal.office.com) and click on Admin in the app launcher on the top left hand corner.
 
@@ -47,4 +47,4 @@ Note: You need to already have a subscription to Office 365. If you don't have o
 
 6. When the Office app opens, go to Insert > Apps for Office and select My First Content Add-in under My Organization. If you don't see the add-in, press Refresh. Press Insert and the add-in should appear.
 
-For more information, please read: https://msdn.microsoft.com/EN-US/library/office/fp123517.aspx
+For more information on publishing Office Add-ins, please read: https://msdn.microsoft.com/EN-US/library/office/fp123517.aspx
