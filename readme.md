@@ -36,7 +36,7 @@ Follow the steps below to get the sample running in the desktop version of Offic
 
 ##Run in Office Online
 Follow the steps below to get the sample running in Office Online. You will need a subscription to Office 365. 
-If you don't have one, you can get a free [Microsoft Office 365 developer account](https://portal.microsoftonline.com/Signup/MainSignUp.aspx?OfferId=6881A1CB-F4EB-4db3-9F18-388898DAF510&DL=DEVELOPERPACK) for 30 days.
+If you don't have one, [join the Office 365 Developer Program and get a free 1 year subscription to Office 365](https://aka.ms/devprogramsignup).
 
 1. Host these files locally (on localhost) or online (e.g. AWS, Azure, Heroku, etc). In the manifest.xml file, 
 change the **DefaultValue** of the **SourceLocation** to point to the URL where the index.html file is hosted.
