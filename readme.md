@@ -1,4 +1,7 @@
 #Office Add-in Task Pane
+
+>**Note:**  We will be removing this sample from the site on November 30, 2016. If you’d like to keep a copy of this sample for your own reference, please download or clone the repo.
+
 **Table of contents**
 
 * [Run in the playground for Office Add-ins](#run-in-the-playground-for-office-add-ins)
